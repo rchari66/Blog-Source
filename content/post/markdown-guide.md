@@ -1,6 +1,7 @@
 ---
 title: "Markdown guide"
 date: 2018-10-23T16:08:08Z
+categories: ["markdown"]
 draft: false
 ---
 
