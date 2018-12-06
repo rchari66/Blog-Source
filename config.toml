@@ -4,7 +4,7 @@ title = "Techtaste"
 theme = "hugo-min"
 # disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
-publishDir = "../site"
+publishDir = "../mySite"
 
 [params]
     author = "Chari"
