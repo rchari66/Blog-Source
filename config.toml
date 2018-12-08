@@ -20,7 +20,7 @@ publishDir = "../MySite"
     favicon = "img/logo.jpg"
 
 
-[menu.main]]
+[[menu.main]]
     url = "/"
     name = "Home"
     weight = 1
