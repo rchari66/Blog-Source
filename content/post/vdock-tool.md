@@ -13,4 +13,4 @@ draft: false
 
 ---
 
-> Go to [Vdock Github project](urlhttps://www.youtube.com/watch?v=oGPMfa2SZuc)
+> Go to [Vdock Github project](https://github.com/rchari66/vdock)
