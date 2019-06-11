@@ -1,5 +1,5 @@
 ---
-title: "Portforward on Windows"
+title: "Portforward on Windows 10"
 date: 2019-06-11T17:48:16Z
 categories: ["windows 10 networks"]
 draft: false
