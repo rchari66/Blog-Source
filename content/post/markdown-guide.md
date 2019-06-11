@@ -2,7 +2,7 @@
 title: "Markdown guide"
 date: 2018-10-23T16:08:08Z
 categories: ["markdown"]
-draft: false
+draft: true
 ---
 
 Below are the basic syntaxes for writing [markdown](https://en.wikipedia.org/wiki/Markdown) pages.

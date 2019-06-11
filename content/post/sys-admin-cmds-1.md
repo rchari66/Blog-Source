@@ -1,7 +1,7 @@
 ---
-title: "Sys Admin Cmds"
+title: "Sys Admin Cmds 1"
 date: 2019-05-19T06:34:32Z
-categories: ["linux-commands"]
+categories: ["system admin cmds 1"]
 draft: false
 ---
 ## lscpu
