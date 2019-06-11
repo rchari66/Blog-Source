@@ -15,6 +15,8 @@ draft: false
     * list all processes by given user
     * list process tree
     * list cpu, memory usage for the process
+Note: https://fedoramagazine.org/inspect-manage-processes-ps/
+---
 
 #### kill options
 ---
