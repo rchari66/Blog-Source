@@ -1,7 +1,7 @@
 ---
 title: "How To Use Vdock Tool"
 date: 2018-12-06T21:19:55Z
-categories: ["new_post"]
+categories: ["vdock"]
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "TCPDUMP cmd"
 date: 2019-05-19T07:53:12Z
-categories: ["new_post"]
+categories: ["network cmds"]
 draft: false
 ---
 

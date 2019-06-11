@@ -1,7 +1,7 @@
 ---
 title: "Linux network commands"
 date: 2019-05-18T05:30:33Z
-categories: ["k8s"]
+categories: ["network cmds"]
 draft: false
 ---
 
