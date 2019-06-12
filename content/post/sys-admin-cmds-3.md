@@ -28,6 +28,38 @@ $ find -name <name>
 
 -- find not matching name
 
-$ find -not -name <name>
+$ find -not -name <name-to-avoid>
 
+-- find by type
+$ find / -type <type> <name>
+
+<type> could be one of
+f = file
+d = directory
+l = symbolic link
+c = character devices
+b = block devices
+
+e.g.
+$ find / -type f -name "*.html"
 ```
+
+#### Find by size
+``` 
+c: bytes
+k: Kilobytes
+M: Megabytes
+G: Gigabytes
+b: 512-byte blocks
+
+-- find exactly 100 bytes file/directories
+$ find / -size 100c
+
+-- find less than 50Mb files in current directory
+$ find -size -50M
+
+-- all files more than 1Gb
+$ find -size +1G
+```
+
+#### Find by Time
