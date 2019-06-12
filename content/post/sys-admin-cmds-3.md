@@ -21,3 +21,13 @@ $ mount -l -t <type>
 
 ```
 
+#### find
+``` 
+-- find by name
+$ find -name <name>
+
+-- find not matching name
+
+$ find -not -name <name>
+
+```

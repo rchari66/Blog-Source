@@ -85,3 +85,11 @@ $ ps -p <PID> -L -o pid,lwp
  4602  4602
  
 ```
+
+#### pkill command
+``` 
+$ pkill <pattern>
+
+-- display count of matching processes and kill
+$ pkill -c <pattern>
+```
