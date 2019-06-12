@@ -17,7 +17,8 @@ draft: false
     * list cpu, memory usage for the process
 Note: https://fedoramagazine.org/inspect-manage-processes-ps/
 ---
-
+nginx setup and configure for two sites on same host
+---
 #### kill options
 ---
 #### Web Server vs Application Server
@@ -47,11 +48,21 @@ Note: https://fedoramagazine.org/inspect-manage-processes-ps/
 
 ---
 #### file descriptors, system calls, dup, fork
-
-
 ---
 #### CNAME, A recodrs
 * https://unix.stackexchange.com/questions/127723/what-are-the-benefits-of-using-several-ip-addresses-on-a-server
 
 ---
 #### Multithreading (Java/Go)
+
+---
+#### find vs locate
+types of files
+
+---
+#### sed vs awk 
+---
+#### Linux interview questoins
+---
+
+#### Ssh key gen and host a nginx server(with multiple static sites)

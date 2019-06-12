@@ -5,4 +5,6 @@ categories: ["Basic Linux CMDs 1", "debug"]
 draft: false
 ---
 
-# Write content Here 
+#### fork vs exec
+
+> fork creates child process and returns child's pid
