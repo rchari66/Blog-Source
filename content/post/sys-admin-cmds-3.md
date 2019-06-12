@@ -82,3 +82,18 @@ $ find -newer <file-reference>
 
 ```
 
+#### Finding by Owner and permissoins
+``` 
+-- find files owned by given user
+$ find / -user <user>
+
+-- owner
+$ find / -group <group>
+
+---- find by permissions
+$ find / -perm 400
+
+$ find -perm 777
+```
+
+#### find by depth
