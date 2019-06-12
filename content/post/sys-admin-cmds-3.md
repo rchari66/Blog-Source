@@ -5,7 +5,9 @@ categories: ["system admin cmds"]
 draft: false
 ---
 
-#### extend volume
+TODO : extend existing volumes
+
+---
 
 #### mount
 ``` 
