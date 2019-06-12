@@ -65,3 +65,23 @@ $ ps f
 $ ps -e f
 ```
 Note: **htop** can be used to view process tree as well.
+
+#### Find out thread details of a process
+``` 
+$ ps -p <PID> -T -o pid,tid
+
+  PID   TID
+ 3926  3926
+ 3927  3927
+ 4602  4602
+ 
+(OR)
+
+$ ps -p <PID> -L -o pid,lwp
+ 
+  PID   LWP
+ 3926  3926
+ 3927  3927
+ 4602  4602
+ 
+```
