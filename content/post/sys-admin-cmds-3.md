@@ -8,4 +8,16 @@ draft: false
 #### extend volume
 
 #### mount
+``` 
+$ mount <source> <dest>
+
+$ mount /dev/sda2 mountDestDir
+
+--- list all mount points
+$ mount -l
+
+--- list all mount points of given type.
+$ mount -l -t <type>
+
+```
 

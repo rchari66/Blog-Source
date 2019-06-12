@@ -12,4 +12,6 @@ $ Day to day work ?
 * Is there performance team?
 * SLO, SLA who decides?
 * whats the deployment strategy do u use?
+
+* People are migrating to it from slack?
 ``` 
