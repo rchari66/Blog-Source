@@ -5,16 +5,7 @@ categories: ["TO-DO"]
 draft: false
 ---
 
-### List of cmds/concepts to refer
-
-* user ids, groups, permissions
-
-#### ps
-    * list all process by current user
-    * list all processes by all users
-    * list all processes by given user
-    * list process tree
-    * list cpu, memory usage for the process
+## List of cmds/concepts to refer
 Note: https://fedoramagazine.org/inspect-manage-processes-ps/
 ---
 nginx setup and configure for two sites on same host

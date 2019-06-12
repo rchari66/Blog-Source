@@ -7,5 +7,9 @@ draft: false
 
 ```
 $ Who does SRE stuff?
+$ Day to day work ?
 
+* Is there performance team?
+* SLO, SLA who decides?
+* whats the deployment strategy do u use?
 ``` 
