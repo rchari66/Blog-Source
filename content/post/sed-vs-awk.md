@@ -50,10 +50,15 @@ Ref: https://www.tecmint.com/linux-sed-command-tips-tricks/
 
 #### awk command
 ``` 
-$ awk 
+$ awk 'pattern {action}' input-file > output-file
+
+-- print 5th column from lines those match the pattern
+$ awk 'word {print $5}' input-file
+
+
+-- seperate by field(-F) and print 2nd column
+$ awk -F, '{print $2}'
 
 ```
 Ref: https://likegeeks.com/awk-command/
 https://www.lifewire.com/write-awk-commands-and-scripts-2200573
-
-awk '{print $0}' file.name
