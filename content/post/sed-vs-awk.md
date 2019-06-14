@@ -30,6 +30,15 @@ $ sed -i 's/<word>/<new-word>/g' <file-name>
 -- replace a word and ignore case
 $ sed -i 's/<word>/<new-word>/gi' <file-name>
 ```
+
+``` 
+-- Replace a word or characters in a range
+$ sed '30,50 s/<word>/<new-word/g'
+$ sed -i '30,50 s/<word>/<new-word/g'
+
+-- swiching multiple matches
+$ sed -i 's/ \(.*\):\(.*\)/\2, \1 /g'
+```
 Ref: https://www.tecmint.com/linux-sed-command-tips-tricks/
 
 #### awk command
