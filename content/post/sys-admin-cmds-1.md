@@ -15,7 +15,7 @@ list of memory.
 ```
 
 ## lsof (list open files)
-``` language
+```
 lsof -i tcp:80
 ```
 

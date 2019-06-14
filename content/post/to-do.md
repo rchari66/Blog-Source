@@ -9,9 +9,14 @@ draft: false
 
 ---
 #### nginx setup and configure for two sites on same host
+https://www.liberiangeek.net/2015/07/how-to-run-multiple-websites-using-nginx-webserver-on-ubuntu-15-04/
+sites are usually on location:
+/var/www/html/example-1.com
+/var/www/html/example-2.com
 ---
 
 #### Ssh key gen and host a nginx server(with multiple static sites)
+https://www.humankode.com/ssl/create-a-selfsigned-certificate-for-nginx-in-5-minutes
 ---
 
 ---
@@ -29,8 +34,13 @@ draft: false
 ---
 
 #### CNAME, A recodrs
-    * https://unix.stackexchange.com/questions/127723/what-are-the-benefits-of-using-several-ip-addresses-on-a-server
+
+* https://unix.stackexchange.com/questions/127723/what-are-the-benefits-of-using-several-ip-addresses-on-a-server
+
+* To compensate for a host that's down at that moment by adding its IP address to another one   
+* allow ssh on one ip and http traffic on another ip to expose service
 ---
+
 
 #### Linux interview questoins
 ---
