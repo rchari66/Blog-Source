@@ -49,6 +49,37 @@ $ kill -3 <ProcessId>
     ``` 
     -- JvisualVM
     -- JMX
-    ```
 
 #### Create systemd service
+* Example .service file for systemd
+    ``` 
+    [Unit]
+    Description=A sample service
+    After=network.target
+    After=systemd-user-sessions.service
+    After=network-online.target
+    
+    [Service]
+    User=testuser
+    Type=forking
+    ExecStart=/home/testuser/start-sample-service.sh
+    ExecStop=/home/testuser/stop-sample-service.sh
+    TimeoutSec=30
+    Restart=on-failure
+    RestartSec=30
+    StartLimitInterval=350
+    StartLimitBurst=10
+    
+    [Install]
+    WantedBy=multi-user.target
+    ```
+    ``` 
+    Note: The location of this .service file should be 
+    /etc/systemd/system/sample.service
+
+    "/etc/systemd/system/" contains all the .service files for systemd
+    ```
+* Enable the service to run at system startup
+    ``` 
+    $ systemctl enable sample.service
+    ```
