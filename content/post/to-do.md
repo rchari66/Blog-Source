@@ -17,14 +17,10 @@ draft: false
 ---
 #### Ssh key gen and host a nginx server(with multiple static sites)
 ---
-####  tcp vs udp
----
-####  thread dump
----
-####  heap dump
----
+
 ####  tcp dump
 ---
+
 #### https://www.youtube.com/watch?v=mpQZVYPuDGU
 ---
 ####   http & https protocal work
@@ -43,6 +39,12 @@ draft: false
 #### Linux interview questoins
 ---
 
+####  tcp vs udp
+---
+####  thread dump
+---
+####  heap dump
+---
 
 
 

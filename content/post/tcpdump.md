@@ -44,7 +44,7 @@ Get all the packets based on the IP address, whether source or destination or bo
 check all the packets used based on the protocol
 ```
 
-## To get packets for a single port ot for a range of ports, use
+## To get packets for a single port OR for a range of ports, use
 ``` language
 $ tcpdump port 22
 $ tcpdump portrange 22-8080

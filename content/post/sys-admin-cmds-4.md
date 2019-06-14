@@ -80,6 +80,6 @@ $ kill -3 <ProcessId>
     "/etc/systemd/system/" contains all the .service files for systemd
     ```
 * Enable the service to run at system startup
-    ``` 
+    ```
     $ systemctl enable sample.service
     ```
