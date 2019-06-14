@@ -1,7 +1,7 @@
 ---
 title: "Sed vs Awk"
 date: 2019-06-14T16:45:35Z
-categories: ["new_post"]
+categories: ["sed vs awk"]
 draft: false
 ---
 

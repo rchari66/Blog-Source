@@ -1,7 +1,7 @@
 ---
 title: "File Attributes"
 date: 2019-06-14T22:54:41Z
-categories: ["new_post"]
+categories: ["file system"]
 draft: false
 ---
 
