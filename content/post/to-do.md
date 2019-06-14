@@ -18,12 +18,14 @@ draft: false
 #### Ssh key gen and host a nginx server(with multiple static sites)
 ---
 
-####  tcp dump
+~~####  tcp dump~~
+
 ---
 
 #### https://www.youtube.com/watch?v=mpQZVYPuDGU
 ---
-####   http & https protocal work
+~~####   http & https protocal work~~
+
 ---
 ---
 #### sed vs awk 
