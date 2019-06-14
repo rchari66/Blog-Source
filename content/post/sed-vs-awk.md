@@ -103,9 +103,25 @@ $
     ORS  Specifies the Output separator.
     ```
 
+* Awk Arrays
+    ```
+    $ awk 'BEGIN
+            {
+                array["key1"]="value1"; 
+                array["key2"]["subkey1"]="subvalue1";
+                
+                print array["key1"];
+                print array["key2"]["subkey1"];
+            }
+    
+    ```
 
-
-
+Note: 
+    Semicolon(;) is not required if one line is standalone statement. 
+    Semicolon is needed to sperate multiple statements in one line.
 
 Ref: https://likegeeks.com/awk-command/
+
 https://www.lifewire.com/write-awk-commands-and-scripts-2200573
+
+https://www.gnu.org/software/gawk/manual/html_node/Arrays-of-Arrays.html
