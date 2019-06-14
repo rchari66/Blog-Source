@@ -112,7 +112,20 @@ $
                 
                 print array["key1"];
                 print array["key2"]["subkey1"];
-            }
+            }'
+            
+    -- tp delete array element
+    $ awk 'BEGIN
+            {
+                array["key"]="value"
+                print array["key"]
+                
+                delete array["key"]
+                
+                # Below code prints nothing.
+                print array["key"]
+            
+            }'
     
     ```
 
