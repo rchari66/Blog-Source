@@ -27,6 +27,28 @@ $ kill -3 <ProcessId>
 
 #### Heap dump
 
-
+* Jmap : it prints heap dumps into a specified file location
+    ``` 
+    -- This used for heap dump; It is included in JDK /bin
+    $ jmap -dump:format=b,file=<file-path> <pid>
+    
+    $ jmap -dump:format=b,file=/tmp/dumpoutput.bin 2034 
+    ```
+* HeapDumpOnOutOfMemoryError
+    ``` 
+    -- By passing the arguments "-XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/opt/tmp/heapdump.bin" to Java startup application.
+    
+    Note: Best Practice: Keep this property configured in all the applications at all the times, as you never know when OutOfMemoryError will happen.
+    ```
+* Jcmd
+    ```
+    $ jcmd <pid> GC.heapdump <outputfile>
+    $ jcmd 1240 GC.heap_dump /tmp/heapdump.bin
+    ```
+* UI based tools for taking heapdump
+    ``` 
+    -- JvisualVM
+    -- JMX
+    ```
 
 #### Create systemd service
