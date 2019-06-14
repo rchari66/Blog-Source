@@ -28,7 +28,7 @@ draft: false
     Additionally App Server have components and features to support Application level services such as Connection Pooling, 
     Object Pooling, Transaction Support, Messaging services etc
     
-* Enterprise Java Bean(EJB)
+* Enterprise JavaBean(EJB)
 * Oracle WebLogic
 * Glassfish
 * JBoss
