@@ -88,6 +88,9 @@ $
         {print $0}
         END {print "File footer"}' myfile
     ```
-
+    ``` 
+    -- Count number of lines in a file
+     $ awk 'BEGIN {count=0;} {print $0; var++;} END {print count}' <filename>
+    ```
 Ref: https://likegeeks.com/awk-command/
 https://www.lifewire.com/write-awk-commands-and-scripts-2200573
