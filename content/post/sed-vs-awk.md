@@ -20,3 +20,5 @@ $ awk
 ```
 Ref: https://likegeeks.com/awk-command/
 https://www.lifewire.com/write-awk-commands-and-scripts-2200573
+
+awk '{print $0}' file.name
