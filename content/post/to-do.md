@@ -41,7 +41,6 @@ https://www.humankode.com/ssl/create-a-selfsigned-certificate-for-nginx-in-5-min
 * allow ssh on one ip and http traffic on another ip to expose service
 ---
 
-
 #### Linux interview questoins
 ---
 
@@ -58,8 +57,4 @@ https://www.humankode.com/ssl/create-a-selfsigned-certificate-for-nginx-in-5-min
 ~~#### Java coding exercise OR coding(check wit HR)~~
 ---
 
-~~####  foreground & background process (creation)~~
-
-~~#### file descriptors, system calls, dup, fork~~
----
 
