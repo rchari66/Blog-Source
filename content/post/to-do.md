@@ -20,8 +20,8 @@ https://www.humankode.com/ssl/create-a-selfsigned-certificate-for-nginx-in-5-min
 ---
 
 ---
-
-#### https://www.youtube.com/watch?v=mpQZVYPuDGU
+#### How DNS works?
+* https://www.youtube.com/watch?v=mpQZVYPuDGU
 ---
 ~~####   http & https protocal work~~
 
