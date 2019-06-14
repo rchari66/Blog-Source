@@ -27,8 +27,30 @@ $ !echo:p
 Option ":p" only prints the command without executing it.
 ```
 
-#### Arguments of last command
+#### Arguments of last command can be referred using '!*'
 ``` 
 $ echo Hello World!
-$ 
+Hello World
+$ echo !*
+echo Hello World!
+Hello World!
+```
+
+
+#### First argument of last command can be referred by '!^'
+``` 
+$ echo Hello World!
+Hello World
+$ echo !^
+echo Hello 
+Hello
+```
+
+#### Last argument of last command can be referred by '!$'
+``` 
+$ echo Hello World!
+Hello World
+$ echo !$
+echo World! 
+World!
 ```
