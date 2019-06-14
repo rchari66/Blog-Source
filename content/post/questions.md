@@ -14,4 +14,8 @@ $ Day to day work ?
 * whats the deployment strategy do u use?
 
 * People are migrating to it from slack?
+
+
+* Do you have disaster recovery feature in place?
+
 ``` 
