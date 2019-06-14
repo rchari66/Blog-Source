@@ -54,3 +54,55 @@ $ echo !$
 echo World! 
 World!
 ```
+
+#### Substitute a word in last command and execute it.
+``` 
+$ echo Hello World!
+Hello World!
+
+$ ^Hello^New Hello
+echo New Hello World!
+New Hello World!
+
+
+Note: This is equilent to below command
+!!:s/Hello/New Hello/
+$ !!:s/New Hello/Hello
+echo Hello World!
+Hello World!
+$
+```
+
+#### Execute/view nth command from history
+``` 
+-- show & execute 190th command
+$ !190
+
+-- only show 190th command
+$ !190:p
+```
+
+#### View last 10 commands from history
+``` 
+$ history 10
+```
+
+#### Execute last 5th command from history
+``` 
+$ !-5
+
+-- only view last 5th command
+$ !-5:p
+```
+
+#### Repeat entire command line
+``` 
+$ echo Hello World! !#
+Hello World! echo Hello World!
+
+-- Repeat only 2nd keyword
+$ echo Hello World! !#:2
+Hello World! World!
+```
+
+
