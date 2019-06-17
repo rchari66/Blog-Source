@@ -65,3 +65,86 @@ func main() {
 
 }
 ```
+
+#### **Executing commands in go**
+
+``` go
+// execute and return output
+package main
+
+import (
+    "os/exec"
+    "log"
+    "fmt"
+)
+
+func main() {
+    output, err := exec.Command("date").Output()
+    
+    if err != nil {
+        log.Fatal("Failed to execute command" + err)
+    }
+    
+    fmt.Println(output)
+}
+```
+
+``` go
+// start and wait for the command to exit
+ 
+ func main() {
+     cmd := exec.Cmd("sleep", "5")
+     
+     err := cmd.Start()
+     if err != nil {
+         log.Fatal(err)
+     }
+     
+     fmt.Println("Waiting for the command")
+     err := cmd.Wait()
+     
+     fmt.Printf("Command has been executed with error: %v", err)
+     
+ }
+```
+
+``` go
+// Stdoutpipe
+func main() {
+    // tail from first line; and keep follow the file for any chagnes
+    // tail -Fn+1 <filename>
+    
+    cmd := exec.Cmd("tail", "-Fn+1", "logfile.log")
+    
+    stdout, err := cmd.StdoutPipe()
+    
+    if err != nil {
+        log.Fatal(err)
+    }
+    
+    // start the command
+    err = cmd.Start()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+    // io.Reader object.
+	r := bufio.NewReader(stdout)
+	
+	for {
+	    line, error := r.ReadString("\n")
+	    
+	    if error != nil {
+	        log.Fatal(error)
+	    }
+	    
+	    fmt.Println(line)
+	}
+    
+    // Wait for the command
+    err = cmd.Wait()
+    
+    log.Printf("Command finished with error: %v", err)
+    
+}
+```
