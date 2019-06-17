@@ -52,6 +52,7 @@ draft: false
     main.rect
     %
     ```
+* Boolean
     ``` go
     func main() {
     flag := true
@@ -68,7 +69,7 @@ draft: false
     Boolean value of flag : true
     Boolean value of flag : true
     ```
-    
+ * Integer & Float   
     ``` go
     -- Integer
     %b	base 2
@@ -96,5 +97,57 @@ draft: false
     Decimal : 4
     Hexa : 4
     Hexa : 4
+    
+    
+    -- Float --
+    f := 10000.800
+    fmt.Pritnf("10.2%f") // fit the float in 10 characters
+    
+    -- Output --
+          10000.80
     ```
+
+* Strings & Slices
+    ``` go
+    -- String and slice of bytes
+    %s - string
+    %q - quoted string
+    
+    -- Example
+    str := "Hello World!"
+    fmt.printf("%s \n", str)
+    fmt.printf("%q \n", str)
+    
+    -- Output --
+    Hello World!
+    "Hello World!"
+    ``` 
+    ---
+    ```
+    -- Pointer
+    %p	base 16 notation, with leading 0x
+    
+    a := 10
+    fmt.Printf("Pointer of a : %p \n", &a)
+    
+    -- Output --
+    Pointer of a : 0xc000064090
+    ```
+    Note: %v can be used for any of the below types.
+    - int, float, bool, uint, uint8, string,
+    - chan, float32, pointer
+
+* Other complex Objects
+    ``` go
+    Complext objects will be printed like this..
+    
+    struct:             {field0 field1 ...}
+    array, slice:       [elem0 elem1 ...]
+    maps:               map[key1:value1 key2:value2 ...]
+    pointer to above:   &{}, &[], &map[]
+    ```
+    Ref: https://golang.org/pkg/fmt to know more on 
+    - Scan, Scanf, Scanln, Fscan, Fscanf, Fscanln for **Scanning**
+    - Sprint, Sprintf, Sprintln for create and return **strings**
+
     
