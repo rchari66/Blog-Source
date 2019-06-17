@@ -2,7 +2,7 @@
 title: "Reasons"
 date: 2019-05-14T19:29:27Z
 categories: ["stuff"]
-draft: false
+draft: true
 ---
 
 * New management & communication gap.
