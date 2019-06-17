@@ -71,3 +71,23 @@ Ref: [snappy](https://itsfoss.com/install-snap-linux/)
     On Unix, the value is a colon-separated string. On Windows, the value is a semicolon-separated string. 
     On Plan 9, the value is a list. GOPATH must be set to get, build and install packages outside the standard Go tree.
   ```
+
+#### **GOOS & GOARCH** build arguments
+Go provides easy to build executable binary for any platform.
+
+For e.g: To build binary for windows
+```
+-- builds main.exe
+$ env GOOS=windows GOARCH=amd64 go build main.go 
+$ ls
+main.exe main.go
+```
+
+#### **Go CLI**
+- Project initializatoin
+- Build go project
+- **go gen** to generate go code
+- **go get** to retrieve dependencies
+- **go test** 
+- **profiling** (like cheking cpu, network usage, memory)
+- **go doc** for documentaion
