@@ -59,3 +59,14 @@ Ref: [snappy](https://itsfoss.com/install-snap-linux/)
     -- Option "--channel"
       allow you to specify a channel from which the package is downloaded and installed.
     ```
+* vefiry go installation
+  ``` 
+  $ go version
+  go version go1.12.6 linux/amd64
+  ```
+* GOROOT vs GOPATH env variables.
+  ``` 
+  -- if GOROOT is not set; go compiler looks at ~/go folder to scan the go packages.
+  -- if GOROOT is set;  go compiler looks at $GOROOT location 
+  -- if GOPATH is not
+  ```
