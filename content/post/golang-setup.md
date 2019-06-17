@@ -66,7 +66,8 @@ Ref: [snappy](https://itsfoss.com/install-snap-linux/)
   ```
 * GOROOT vs GOPATH env variables.
   ``` 
-  -- if GOROOT is not set; go compiler looks at ~/go folder to scan the go packages.
-  -- if GOROOT is set;  go compiler looks at $GOROOT location 
-  -- if GOPATH is not
+  -- GOROOT must be set only when installing to a custom location.
+  -- The GOPATH environment variable lists places to look for Go code. 
+    On Unix, the value is a colon-separated string. On Windows, the value is a semicolon-separated string. 
+    On Plan 9, the value is a list. GOPATH must be set to get, build and install packages outside the standard Go tree.
   ```
