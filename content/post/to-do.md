@@ -6,6 +6,10 @@ draft: false
 ---
 
 ## List of cmds/concepts to refer
+* head vs tail command 
+    * tail -F -n+1 
+    * List Item 2
+* List Item 2
 
 ---
 #### nginx setup and configure for two sites on same host

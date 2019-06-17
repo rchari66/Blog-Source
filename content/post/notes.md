@@ -5,7 +5,7 @@ categories: ["new_post"]
 draft: true
 ---
 
-Categories of blog posts
+Categories for blog posts
 
 * Differences(tech-A vs tech-B..)
 * Examples
