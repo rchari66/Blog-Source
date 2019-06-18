@@ -31,5 +31,18 @@ draft: true
     
     Type assertion takes a value and tries to create another version in the specified explicit type.
     ``` go
-        as
+    v, ok := variable.(<type>)
+    
+    -- 
+     type Counter struct {
+        count int
+    }
+    func printString(value interface{}) {
+    	switch str := value.(type) {
+    	case string:
+    		fmt.Println(str)
+    	case Counter:
+    		fmt.Println(str.String())
+    	}
+    }
     ```
