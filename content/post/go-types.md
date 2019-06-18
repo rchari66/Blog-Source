@@ -55,3 +55,32 @@ draft: true
     	printString(str)
     }
     ```
+    ``` go
+    // checking if an error is of a certain type:
+    if err != nil {
+      if msqlerr, ok := err.(*mysql.MySQLError); ok && msqlerr.Number == 1062 {
+        log.Println("We got a MySQL duplicate :(")
+      } else {
+        return err
+      }
+    }
+    ```
+* Structs
+    ``` go
+    type Point struct {
+    	X, Y int
+    }
+    
+    var (
+    	p = Point{1, 2}  // has type Point
+    	q = &Point{1, 2} // has type *Point
+    	r = Point{X: 1}  // Y:0 is implicit
+    	s = Point{}      // X:0 and Y:0
+    )
+    ```
+
+* Initializing(using **new** keyword)
+    ``` go
+    x := new(int) // x value is = 0
+    
+    ```
