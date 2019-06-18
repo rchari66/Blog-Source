@@ -2,7 +2,7 @@
 title: "Go Functions"
 date: 2019-06-17T16:08:53Z
 categories: ["Golang"]
-draft: true
+draft: false
 ---
 
 #### **function declaration**
