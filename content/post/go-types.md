@@ -34,15 +34,24 @@ draft: true
     v, ok := variable.(<type>)
     
     -- 
-     type Counter struct {
-        count int
+   type Counter struct {
+    	count int
     }
+    
     func printString(value interface{}) {
     	switch str := value.(type) {
     	case string:
     		fmt.Println(str)
     	case Counter:
-    		fmt.Println(str.String())
+    		fmt.Println(str.count)
     	}
+    }
+    
+    func main() {
+    	c := Counter{count: 10}
+    	var str string = "Hello world"
+    
+    	printString(c)
+    	printString(str)
     }
     ```
