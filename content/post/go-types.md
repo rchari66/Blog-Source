@@ -77,6 +77,21 @@ draft: false
     	r = Point{X: 1}  // Y:0 is implicit
     	s = Point{}      // X:0 and Y:0
     )
+    
+    ``` 
+    
+    ``` go
+    // Structs can be initialized in two ways.
+    -- Using dot notation
+    
+    p := Point{}
+    p.X = 1
+    p.Y = 2
+    
+    -- Using struct literal
+    
+    p := Point{X:1, Y:2}\
+    
     ```
 
 * Initializing(using **new** keyword)
@@ -84,6 +99,8 @@ draft: false
     x := new(int) // x value is = 0
     
     ```
+    Note: Go uses **new** expression to allocate a zeroed value of the requested type and to return a pointer to it
+
 * Initializing(using **make** keyword)
     ``` go
     -- make is used to initialize slices, maps & channels
