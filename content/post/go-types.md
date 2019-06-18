@@ -84,3 +84,7 @@ draft: true
     x := new(int) // x value is = 0
     
     ```
+* Initializing(using **make** keyword)
+    ``` go
+    -- make is used to initialize slices, maps & channels
+    ```
