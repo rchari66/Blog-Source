@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 categories: ["new_post"]
-draft: false
+draft: true
 ---
 
-# Write content Here 
+#### **In Progress..**

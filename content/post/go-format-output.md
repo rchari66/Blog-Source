@@ -148,6 +148,7 @@ draft: false
     ```
     Ref: https://golang.org/pkg/fmt to know more on 
     - Scan, Scanf, Scanln, Fscan, Fscanf, Fscanln for **Scanning**
-    - Sprint, Sprintf, Sprintln for create and return **strings**
+    - Sprint, Sprintln for create and return **strings**
+    - Sprintf: Sprintf formats according to a format specifier and returns the resulting string.
 
     
