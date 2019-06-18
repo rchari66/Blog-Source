@@ -2,7 +2,7 @@
 title: "Go Types"
 date: 2019-06-17T16:55:16Z
 categories: ["Golang"]
-draft: true
+draft: false
 ---
 
 #### **Types**
