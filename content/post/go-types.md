@@ -105,3 +105,39 @@ draft: false
     ``` go
     -- make is used to initialize slices, maps & channels
     ```
+
+* Arrays
+
+    ``` go
+    // The type [n]T is an array of n values of type T
+    var arr [10]int
+    var names [20]string
+    
+    // Set array entries at the time of declaration
+    arr := [5]int{1,2,3,4,5}    // len(a) will be 5
+    arr := [...]int{1,2,3,4,5}  // len(a) will be 5; using ellipsis(...)
+    
+    names := [2]string{"Hello", "World"}
+    names := [...]string{"Hello", "World"} // using ellipsis(...)
+    ```
+    ``` go
+    // Printing arrays
+    a := [...]string{"Hello", "World!"}
+    
+    fmt.Println(a)
+  	// [hello world!]
+  	fmt.Printf("%s\n", a)
+  	// [hello world!]
+  	fmt.Printf("%q\n", a)
+  	// ["hello" "world!"]
+    ```
+    ``` go
+    // Multidimentional arrays.
+    var a [2][3]string
+    var arr [5][5]int
+    ```
+
+* Slices([]T is a slice with elements of type T)
+    ``` go
+    
+    ```
