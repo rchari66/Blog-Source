@@ -227,3 +227,11 @@ draft: false
     v, ok = m[key]
     
     ```
+* Channels
+    ``` go
+    // Declare a channel( make is used to create a channel)
+    c := make(chan int)
+    
+    // Buffered channel
+    c := make(chan int, 10)
+    ```
