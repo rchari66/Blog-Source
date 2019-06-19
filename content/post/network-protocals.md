@@ -20,8 +20,7 @@ draft: true
         
             <- TCP Connection established ->
         ```
-    * Its Dominant protocal
-    * Used for
+    * Its Dominant protocal & Used for
         * Web (http and https)
         * Telnet
         * FTP
@@ -38,11 +37,26 @@ draft: true
         * DNS Queries, VoiceOverIP(VoIP),  Dynamic Host Configuration Protocol (DHCP)
 
         
-* http                  
-    * verion : HTTP/2.0
-    * Features
-        * 
-* https
+* HTTP                  
+    * verion : HTTP/1.x (aka H1)
+        * Features
+            * Contents of each stream are HTTP 1.1 requests and responses
+            * Single persistent connection(TCP)
+            * Semantics like HTTP methods & Response Status Codes
+            
+        * Flaws
+            * No Server Push; Low performance
+    
+    * version : HTTP/2.0 (aka H2)
+        * Features
+            * Supports Single TLS encrypted             
+            * Stream concurrency: Carrying multiple streams over a single TCP connection
+            * Flow Control: receiver signals the sender for the maximal amount of data it is allowed to transmit (over a stream/TCP connection)
+            * Stream priority: Sender signals the receiver for the priority of this stream, compared to others
+            * Stream dependency: Sender signals the receiver on recommended order for processing the streams
+            
+            
+* HTTPS(SSL/TLS)
                 
 * Ping
     * protocal -  Internet Control Message Protocol (ICMP)
