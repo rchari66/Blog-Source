@@ -42,14 +42,20 @@ draft: true
         * Features
             * Contents of each stream are HTTP 1.1 requests and responses
             * Single persistent connection(TCP)
-            * Semantics like HTTP methods & Response Status Codes
+            * Semantics like HTTP methods, HTTP Headers & Response Status Codes
             
         * Flaws
             * No Server Push; Low performance
+            * Messages are not converted to binary format
     
     * version : HTTP/2.0 (aka H2)
         * Features
-            * Supports Single TLS encrypted             
+            * Server push
+            * Compression of request headers
+            * Multiplexing
+            * Supports Single TLS encrypted(With use of SSL cert)            
+            * The conversion of messages into binary allows HTTP/2 to try new approaches to data delivery not available in HTTP/1.
+            
             * Stream concurrency: Carrying multiple streams over a single TCP connection
             * Flow Control: receiver signals the sender for the maximal amount of data it is allowed to transmit (over a stream/TCP connection)
             * Stream priority: Sender signals the receiver for the priority of this stream, compared to others
