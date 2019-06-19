@@ -52,10 +52,8 @@ draft: false
         * Features
             * Server push
             * Compression of request headers(Using HPACK)
-            * Multiplexing
-            * Supports Single TLS encrypted(With use of SSL cert)            
-            * The conversion of messages into binary allows HTTP/2 to try new approaches to data delivery not available in HTTP/1.
-            
+            * Supports Single TLS encrypted(With use of SSL cert) & Multiplexing
+            * Binary protocal
             * Stream concurrency: Carrying multiple streams over a single TCP connection
             * Flow Control: receiver signals the sender for the maximal amount of data it is allowed to transmit (over a stream/TCP connection)
             * Stream priority: Sender signals the receiver for the priority of this stream, compared to others
