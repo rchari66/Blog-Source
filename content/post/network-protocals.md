@@ -67,7 +67,13 @@ draft: false
     * Ref : https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
 
 * HTTPS(SSL/TLS)
-                
+    * Works on HTTP protocal with encrypted TLS/SSL connection
+    * Some of SSL cert types
+        * Domain Validation SSL
+        * Wildcard SSL 
+        * Multidomain SLL certs 
+    Note: All browsers enforce SSL certs to be used with HTTP/2.0 protocal.
+
 * Ping
     * protocal -  Internet Control Message Protocol (ICMP)
     
