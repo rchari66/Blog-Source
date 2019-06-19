@@ -6,14 +6,30 @@ draft: false
 ---
 
 #### **In Progress..**
-* Ping
-    * protocal -
-    * port -
-    * Ref: 
+* TCP(Transmission Control Protocal)
+    * Description :
+    
+        ``` 
+        TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network
+        ```
+    
+* UDP(User Datagram Protocal)
+    * Description - provides a connectionless datagram service that emphasizes reduced latency over reliability. 
+    * protocal - UDP
+    * port - NA
+    * Encryption -
 
-* ssh
-    * protocal -
-    * port - 
+* Ping
+    * protocal -  Internet Control Message Protocol (ICMP)
+    
+        ```
+        It uses ICMP. To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports! 
+        ```
+    * port - Does not use TCP or UDP. 
+
+* SSH
+    * protocal - SSH
+    * port - 22
     * Encryption -
 
 * nslookup
@@ -40,4 +56,6 @@ draft: false
     * protocal -
     * port - 
 
-
+* DNS resolution
+    * protocal -
+    * port - 
