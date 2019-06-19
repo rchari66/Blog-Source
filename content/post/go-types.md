@@ -139,5 +139,91 @@ draft: false
 
 * Slices([]T is a slice with elements of type T)
     ``` go
+    // Slices wrap arrays to give a more general, powerful, and convenient interface to sequences of data
+    
+    p := []int{2, 3, 5, 7, 11, 13} // slice literal
+    
+    s := make([]string, 5) // slice of size 5;
+    
+    s[0] = "Hello"
+    
+    // To increase size of the slice
+    s = append(s, "New string")
+    
+    
+    // append another slice
+    cities := []string{"San Diego", "Mountain View"}
+  	otherCities := []string{"Santa Monica", "Venice"}
+  	cities = append(cities, otherCities...)
+  	
+  	// nil slices
+  	var s []int
+  	
+  	if s == nil {
+  	  fmt.Println("s is nil")
+  	}
+    -- Output --
+    s is nil
+    
+    
+    // --Range over slices
+    var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}
+    
+    func main() {
+        for i, v := range pow {
+            fmt.Printf("2**%d = %d\n", i, v)
+        }
+    }
+    
+    -- Output --
+    2**0 = 1
+    2**1 = 2
+    2**2 = 4
+    2**3 = 8
+    2**4 = 16
+    2**5 = 32
+    2**6 = 64
+    2**7 = 128
+    
+    // -- Range over map
+    cities := map[string]int{
+  		"BLR":    1234,
+  		"HYD": 5678
+  	}
+  	for key, value := range cities {
+  		fmt.Printf("%s has pincode : %d\n", key, value)
+  	}
+  	
+  	-- Output --
+  	BLR has pincode : 1234
+  	HYD has pincode : 5678
+  	
+    ```
+
+* Maps
+    ``` go
+    // -- Declaration
+    m := map[string]int {
+      "a" : 1,
+      "b" : 2
+    }
+    fmt.Printf("%#v \n", m)
+    fmt.Println(m)
+    -- Output --
+    map[string]int{"a":1, "b":2}
+    map[a:1, b:2]
+    
+    // -- Manipulating maps
+    -- insert or update
+    m[key] = value
+    
+    -- retrieve
+    v = m[key]
+    
+    -- delete
+    delete(m, key)
+    
+    -- check for key with two-assignment variables
+    v, ok = m[key]
     
     ```
