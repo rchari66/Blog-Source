@@ -22,7 +22,7 @@ draft: true
         ```
     * Its Dominant protocal
     * Used for
-        * Web
+        * Web (http and https)
         * Telnet
         * FTP
         * email
@@ -37,6 +37,13 @@ draft: true
         * Live streaming audio or video
         * DNS Queries, VoiceOverIP(VoIP),  Dynamic Host Configuration Protocol (DHCP)
 
+        
+* http                  
+    * verion : HTTP/2.0
+    * Features
+        * 
+* https
+                
 * Ping
     * protocal -  Internet Control Message Protocol (ICMP)
     
@@ -51,8 +58,7 @@ draft: true
     * port - 22
     * Encryption -
 
-* http
-* https
+
 * ftp
 * telnet
 * smtp
