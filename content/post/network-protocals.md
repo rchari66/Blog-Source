@@ -12,6 +12,7 @@ draft: false
         ``` 
         TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network
         ```
+    * Its a persistent connection
     * Three way handshare(at the begining)
         ```
         step1 : Client sends -> I want to talk -> Server
@@ -76,12 +77,14 @@ draft: false
 
 * Ping
     * protocal -  Internet Control Message Protocol (ICMP)
-    
+    * Sends echo request packet to an address, then waits for a reply.
+    * The ping is successful only if:
+        - the echo request gets to the destination, and
+        - the destination is able to get an echo reply back to the source within a predetermined time called a timeout.
         ```
-        It uses ICMP. 
-        To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports! 
+        To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports!
         ```
-    * port - Does not use TCP or UDP. 
+    * port - No Ports. Does not use TCP or UDP. 
 
 * SSH
     * protocal - SSH
