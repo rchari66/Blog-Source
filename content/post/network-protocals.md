@@ -50,16 +50,21 @@ draft: false
     
     * version : HTTP/2.0 (aka H2; supports only with SSL/TLS)
         * Features
+            * Protocol negotiation mechanism — protocol electing, eg. HTTP/1.1, HTTP/2 or other.
             * Server push
             * Compression of request headers(Using HPACK)
-            * Supports Single TLS encrypted(With use of SSL cert) & Multiplexing
+            * Multiplexing over a single TCP connection
             * Binary protocal
             * Stream concurrency: Carrying multiple streams over a single TCP connection
             * Flow Control: receiver signals the sender for the maximal amount of data it is allowed to transmit (over a stream/TCP connection)
             * Stream priority: Sender signals the receiver for the priority of this stream, compared to others
             * Stream dependency: Sender signals the receiver on recommended order for processing the streams
             
-        ![HTTP/1.0 vs HTTP/2.0](https://techtaste.me/img/tcp-udp.png)\
+        e.g.
+        ![HTTP/1.0 vs HTTP/2.0](https://techtaste.me/img/http1-http2.png)
+        e.g.
+        ![HTTP/1.0 vs HTTP/2.0](https://techtaste.me/img/http1-http2-2.png)
+    * Ref : https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
 
 * HTTPS(SSL/TLS)
                 
