@@ -41,7 +41,8 @@ draft: true
     * protocal -  Internet Control Message Protocol (ICMP)
     
         ```
-        It uses ICMP. To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports! 
+        It uses ICMP. 
+        To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports! 
         ```
     * port - Does not use TCP or UDP. 
 
@@ -50,26 +51,12 @@ draft: true
     * port - 22
     * Encryption -
 
-* nslookup
-    * protocal -
-    * port - 
-
-* dig
-    * protocal -
-    * port - 
-
-* telnet
-    * protocal -
-    * port - 
-
 * http
-    * protocal -
-    * port - 
-
 * https
-    * protocal -
-    * port - 
-    
+* ftp
+* telnet
+* smtp
+
 * gRPC
     * protocal -
     * port - 
@@ -77,7 +64,3 @@ draft: true
 * DNS resolution
     * protocal -
     * port - 
-
-* SMPT
-
-* 
