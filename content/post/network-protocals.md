@@ -2,7 +2,7 @@
 title: "Network Protocals"
 date: 2019-06-19T09:00:58Z
 categories: ["new_post"]
-draft: true
+draft: false
 ---
 
 #### **In Progress..**
@@ -31,7 +31,7 @@ draft: true
     * Sends Data to server; does not care whether it reached destination or not;
     * Its faster.
 
-        ![TCP IDP](https://techtaste.me/img/Screenshot%20(4).png)
+        ![TCP vs IDP](https://techtaste.me/img/tcp-udp.png)
     * Used for 
         * Live streaming audio or video
         * DNS Queries, VoiceOverIP(VoIP),  Dynamic Host Configuration Protocol (DHCP)
@@ -48,10 +48,10 @@ draft: true
             * No Server Push; Low performance
             * Messages are not converted to binary format
     
-    * version : HTTP/2.0 (aka H2)
+    * version : HTTP/2.0 (aka H2; supports only with SSL/TLS)
         * Features
             * Server push
-            * Compression of request headers
+            * Compression of request headers(Using HPACK)
             * Multiplexing
             * Supports Single TLS encrypted(With use of SSL cert)            
             * The conversion of messages into binary allows HTTP/2 to try new approaches to data delivery not available in HTTP/1.
@@ -61,7 +61,8 @@ draft: true
             * Stream priority: Sender signals the receiver for the priority of this stream, compared to others
             * Stream dependency: Sender signals the receiver on recommended order for processing the streams
             
-            
+        ![HTTP/1.0 vs HTTP/2.0](https://techtaste.me/img/tcp-udp.png)\
+
 * HTTPS(SSL/TLS)
                 
 * Ping
