@@ -20,14 +20,22 @@ draft: true
         
             <- TCP Connection established ->
         ```
-
+    * Its Dominant protocal
+    * Used for
+        * Web
+        * Telnet
+        * FTP
+        * email
     
 * UDP(User Datagram Protocal)
     * Description - provides a connectionless datagram service that emphasizes reduced latency over reliability. 
     * Sends Data to server; does not care whether it reached destination or not;
     * Its faster.
 
-![TCP IDP]()
+        ![TCP IDP](https://techtaste.me/img/Screenshot%20(4).png)
+    * Used for 
+        * Live streaming audio or video
+        * DNS Queries, VoiceOverIP(VoIP),  Dynamic Host Configuration Protocol (DHCP)
 
 * Ping
     * protocal -  Internet Control Message Protocol (ICMP)
