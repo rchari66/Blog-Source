@@ -12,12 +12,22 @@ draft: true
         ``` 
         TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network
         ```
+    * Three way handshare(at the begining)
+        ```
+        step1 : Client sends -> I want to talk -> Server
+        step2 : Client recieves <- "Sure. Are you Ready? <- Server
+        step3 : Client sends -> "Yes I am Ready" -> Server
+        
+            <- TCP Connection established ->
+        ```
+
     
 * UDP(User Datagram Protocal)
     * Description - provides a connectionless datagram service that emphasizes reduced latency over reliability. 
-    * protocal - UDP
-    * port - NA
-    * Encryption -
+    * Sends Data to server; does not care whether it reached destination or not;
+    * Its faster.
+
+![TCP IDP]()
 
 * Ping
     * protocal -  Internet Control Message Protocol (ICMP)
