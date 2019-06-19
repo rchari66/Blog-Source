@@ -10,4 +10,4 @@ draft: false
 * PR's were not taken seriously (3 retrospective).
 * Given star award to someone else for the whole story.
 * Wanted to move to devops & platform side.
-* Not giving 
+* Not giving work from scrach. New management is not giving any ownership.
