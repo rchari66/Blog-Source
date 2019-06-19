@@ -2,7 +2,7 @@
 title: "Network Protocals"
 date: 2019-06-19T09:00:58Z
 categories: ["new_post"]
-draft: false
+draft: true
 ---
 
 #### **In Progress..**
@@ -59,3 +59,7 @@ draft: false
 * DNS resolution
     * protocal -
     * port - 
+
+* SMPT
+
+* 
