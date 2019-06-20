@@ -1,7 +1,7 @@
 ---
 title: "Java Strings"
 date: 2019-06-20T19:23:43Z
-categories: ["new_post"]
+categories: ["Java"]
 draft: true
 ---
 
