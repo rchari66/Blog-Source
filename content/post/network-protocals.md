@@ -5,8 +5,11 @@ categories: ["network"]
 draft: false
 ---
 
-#### **In Progress..**
-* TCP(Transmission Control Protocal)
+# Table of Contents
+1. [TCP](#tcp-transmission-control-protocal)
+2. [UDP](#udp-user-datagram-protocal)
+
+#### TCP (Transmission Control Protocal)
     * Description :
     
         ``` 
@@ -26,8 +29,9 @@ draft: false
         * Telnet
         * FTP
         * email
-    
-* UDP(User Datagram Protocal)
+---
+<br>
+#### UDP(User Datagram Protocal)
     * Description - provides a connectionless datagram service that emphasizes reduced latency over reliability. 
     * Sends Data to server; does not care whether it reached destination or not;
     * Its faster.
@@ -116,15 +120,37 @@ draft: false
             ```
             * Refer : ssh-add command
         * host based
-y
-* ftp
-* telnet
-* smtp
 
-* gRPC
-    * protocal -
-    * port - 
+* telnet (port# 23)
+    ``` 
+    -- Verify whether given port is open on a host
+    $ telnet [host [port]]
+    rchari:~$ telnet techtaste.me 443
+    Trying 185.199.111.153...
+    Connected to techtaste.me.
+    Escape character is '^]'.
+    
+    ^]
+    Connection closed by foreign host.
+    ```
 
-* DNS resolution
-    * protocal -
-    * port - 
+* DNS resolution (Port# 53)
+    * DNS uses TCP for Zone transfer and UDP for name queries either regular (primary) or reverse
+    * Host to IP(Forward lookup)
+        * Client sends dns query to ISP(Resolver) 
+        * ISP asks ROOT Server(top DNS) & ROOT server redirects to ISP to TLD(Top level Domain Server)
+        
+            ```     
+            Note: TLD(Top level domain server) contains address of top level domains like .com, .net, .org.. etc.
+            ```
+        * TLD redirects ISP to authoritative name servers(ns1.yahoo.xxx)
+        * ISP gets ip of the host from name server(ns1.yahoo.xxx) & ISP caches the ip.
+        * ISP sends the ip of the domain to client(browser)
+    * IP to Host(reverse lookup)
+        * using nslookup"
+    * protocal - uses either UDP or TCP
+        ```
+        A client computer will always send a DNS Query using UDP Protocol over Port 53. If a client computer does not get response from a DNS Server, it must re-transmit the DNS Query using the TCP after 3-5 seconds of interval. 
+        ```
+* FTP [Uses **two ports# 21(for command) & 20(for data transfer)**]
+
