@@ -2,7 +2,7 @@
 title: "Go Variables Declaratoin"
 date: 2019-06-17T14:44:35Z
 categories: ["Golang"]
-draft: true
+draft: false
 ---
 
 #### **Variables declaration in go**
