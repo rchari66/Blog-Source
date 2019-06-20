@@ -1,7 +1,7 @@
 ---
-title: "Linux network commands 1"
+title: "Network Debug Commands"
 date: 2019-05-18T05:30:33Z
-categories: ["network cmds 1"]
+categories: ["network"]
 draft: false
 ---
 

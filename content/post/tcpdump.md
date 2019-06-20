@@ -1,7 +1,7 @@
 ---
 title: "TCPDUMP cmd"
 date: 2019-05-19T07:53:12Z
-categories: ["network cmds 1"]
+categories: ["network"]
 draft: false
 ---
 
