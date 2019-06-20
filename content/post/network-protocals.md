@@ -91,7 +91,7 @@ draft: false
         ```
     * port - No Ports. Does not use TCP or UDP.
 
-* SSH
+* SSH (port# 22)
     * protocal - SSH (its a communication protocal just like http, https, ftp...etc)
     * SSH is client(/usr/bin/ssh)
     * SSHD is server(openssh-server)
@@ -116,8 +116,6 @@ draft: false
             ```
             * Refer : ssh-add command
         * host based
-    * port - 22
-    * Encryption -
 y
 * ftp
 * telnet
