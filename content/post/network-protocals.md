@@ -79,8 +79,6 @@ draft: false
         * Wildcard SSL 
         * Multidomain SLL certs 
     Note: All browsers enforce SSL certs to be used with HTTP/2.0 protocal.
-    * 
-    
 
 * Ping
     * protocal -  Internet Control Message Protocol (ICMP)
@@ -91,14 +89,36 @@ draft: false
         ```
         To be more precise ICMP type 8 (echo message) and type 0 (echo reply message) are used. ICMP has no ports!
         ```
-    * port - No Ports. Does not use TCP or UDP. 
+    * port - No Ports. Does not use TCP or UDP.
 
 * SSH
-    * protocal - SSH
+    * protocal - SSH (its a communication protocal just like http, https, ftp...etc)
+    * SSH is client(/usr/bin/ssh)
+    * SSHD is server(openssh-server)
+        ``` 
+        -- Install openssh-server
+        $ sudo apt-get install openssh-server
+        
+        -- sshd (ssh daemon server)
+        $ systemctl start ssh
+        ```
+    * Authenticatoin methods(ssh user@192.168.56.101)
+        * password
+        * Public & Private key
+            * ssh-keygen to generate ssh public & private keys
+            * ~/.ssh/id_rsa     (Private Key)
+            * ~/.ssh/id_rsa.pub (public Key)
+            * public key goes into "authorized_keys" file
+            
+            ``` 
+             $cat ~/.ssh/authorized_keys
+              ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC6rsvFUW/CD3x/HLp/6WJKPFwqMqex5LnEvMsQvrPtOs4rarQs4JZqwfBOhGpBB3MGU8OfDvBYjL2JMOyw/YqNtbhnSH2n5/Sco5Sge11SJuy1HbjrkVJE/fyZqxzyypsI8/7HqOYRxArCHHdg56Oz0MAZfeTLNIkvvL7CDyoc5snoiCWrLaQnDmOkKArrdVq6VoABWUFHfEN3/AERh6SOfwSHl5y/7uvcW7Yaemv6mm1MnEqCqi/Wo8ratQ9WFEvm2md8a4Hk4gD+VVyqNTr/P8dAnLqCYY9XpAczHAOp9NFqAeTo9LhLOXfm7/d89kB5ZIbobiuo6GfdOR9Nb0EpRsN8Pr3MYYFxj06N0+FoQJjL/1BNnvjrbSS4BA7KX/Z3c08lcpxPUc7QoAuS8qkEIJyhPtVc4jtEBT7CkyKvi3UVFFLRawSbAwjrLYxdL1HwXCcpTw3iw0QAK5CYPklXphikiPTPy7JnvkxE9hH3/ALioWD8LG4rwYWf24iT+yM= INTEL@DESKTOP-G5I1PT9
+            ```
+            * Refer : ssh-add command
+        * host based
     * port - 22
     * Encryption -
-
-
+y
 * ftp
 * telnet
 * smtp
