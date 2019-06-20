@@ -33,7 +33,7 @@ draft: false
 * A type used to be a logical category/partition of your index to allow you to store different types of documents in the same index
 
 #### Document
-* Basic unit of JSON blog that can be indexed.
+* Basic unit of JSON blog that can be indexed. One might say it's like a tuple(row) in db table.
 * Within an index, you can store as many documents as you want.
 
 #### Shard
