@@ -69,11 +69,18 @@ draft: false
 
 * HTTPS(SSL/TLS)
     * Works on HTTP protocal with encrypted TLS/SSL connection
+        * Browser requests https cert & gets certficate & signature of the ssl cert.
+        * Browser verifies the cert's integrity & identity
+        * Browser creates a symetric key, encrypts it usnig server's public key and sends to server.
+        * Both Browser & Server uses this symetric key to encrypt the messages.
+        
     * Some of SSL cert types
         * Domain Validation SSL
         * Wildcard SSL 
         * Multidomain SLL certs 
     Note: All browsers enforce SSL certs to be used with HTTP/2.0 protocal.
+    * 
+    
 
 * Ping
     * protocal -  Internet Control Message Protocol (ICMP)
