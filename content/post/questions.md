@@ -6,9 +6,14 @@ draft: false
 ---
 
 ```
-$ Do you any framework for go apps or just go's standard library?
 $ Whats base image for all your go application?
-$ 
+$ what backend persistant storage is being used in your distributed application..
+* How does interservice communication is secured?
+* secret keeping(Using vault or any alternative?)
+* Tech talks internally?
+* RBAC stuff how are you managing..
+* Interservice communication?
+* How are doing DR strategy
 
 * Is there performance team?
 * SLO, SLA who decides?
