@@ -1,4 +1,4 @@
-[submodule "themes/hugo-min"]
+[submodule "theme-hugo-min"]
 	path = themes/hugo-min
 	url = https://github.com/rchari66/hugo-min.git
 	branch = master
