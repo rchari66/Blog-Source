@@ -2,7 +2,7 @@
 title: "Demo Post"
 date: 2021-04-15T08:42:07Z
 categories: ["new_post"]
-draft: true
+draft: false
 ---
 
 #### **In Progress..**
