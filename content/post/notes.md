@@ -16,3 +16,7 @@ Categories for blog posts
 * go test <package> -coverprofile=cover.out (write code coverage details to cover.out )
 * go test cover -func=cover.out (this will display what percentage of a function is covered)
 * go test cover -html=cover.out (opens up a html page with code coverage detailed report)
+* 
+
+<!--To fix uploadConfig axios api-->
+* https://stackoverflow.com/questions/45975135/access-control-origin-header-error-using-axios-in-react-web-throwing-error-in-ch
