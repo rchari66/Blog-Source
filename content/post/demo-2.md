@@ -1,24 +1,27 @@
 ---
-title: "Demo Post"
-date: 2021-05-17T11:31:16Z
+title: "Demo 2"
+date: 2021-05-18T10:53:34Z
 categories: ["new_post"]
 draft: false
 ---
 
 #### **In Progress..**
 
+
+## youtube videos
+
+
 <iframe width="720" height="405"
     src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
-
-
 
 
 <iframe width="480" height="280"
     src="https://www.youtube.com/embed/tgbNymZ7vqY">
 </iframe>
 
-### Table e.g.
-  Column 1  |  Column 2  | Column 3  |
-  -------------- |---------------- |---------------- |
-table-data  |  table-data  | table-data  |
+
+  Column 1  |  Column 2  |
+  -------------- |---------------- |
+    table-data  |  table-data  |
+    
