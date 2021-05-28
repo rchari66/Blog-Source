@@ -2,7 +2,7 @@
 title: "Try Post"
 date: 2021-05-28T09:41:00Z
 categories: ["new_post"]
-draft: true
+draft: false
 ---
 
 #### **In Progress..**
