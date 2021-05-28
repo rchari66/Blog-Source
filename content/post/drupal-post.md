@@ -2,7 +2,7 @@
 title: "Drupal Post"
 date: 2021-05-28T16:43:09Z
 categories: ["new_post"]
-draft: true
+draft: false
 ---
 
 #### **In Progress..**
