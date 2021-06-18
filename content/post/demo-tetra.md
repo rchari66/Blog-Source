@@ -19,6 +19,7 @@ draft: false
   -------------- |---------------- |
 table-data  |  table-data  |
 
+<br>
 
 ``` language
 public static void main(String arg[]) ..
