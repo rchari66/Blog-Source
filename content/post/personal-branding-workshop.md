@@ -1,6 +1,6 @@
 ---
-title: "My Personal Branding"
-date: 2021-08-11T06:00:52Z
+title: "Personal Branding Workshop"
+date: 2021-08-11T12:53:45Z
 categories: ["compass program"]
 draft: false
 ---
@@ -79,18 +79,16 @@ draft: false
     * become director and drive projects in kubernetes space at global scale
     
 * `What trends are having an impact on your current career or one you are thinking about pursuing?`
-    * Opertunities to grow to next level
+    * full of opertunities to prove and grow to next level
 
 
 <hr>
 ### **Threats**
 * `Do you have weaknesses that need to be addressed before you can move forward?`
-    * pay attention in calls
-    * Pro actively get help as and when needed
+    * 
     
 * `What problems could your weaknesses cause if left unchecked?`
-    * Fail to add better value
-    * stuck on a blocker for longer time(reducing productivity)
+    * 
     
 * `What setbacks might you face?`
     * 
