@@ -36,7 +36,7 @@ draft: false
     * Sends Data to server; does not care whether it reached destination or not;
     * Its faster.
 
-        ![TCP vs IDP](https://techtaste.me/img/tcp-udp.png)
+        ![TCP vs IDP](https://techtaste.in/img/tcp-udp.png)
     * Used for 
         * Live streaming audio or video
         * DNS Queries, VoiceOverIP(VoIP),  Dynamic Host Configuration Protocol (DHCP)
@@ -66,9 +66,9 @@ draft: false
             * Stream dependency: Sender signals the receiver on recommended order for processing the streams
             
         e.g.
-        ![HTTP/1.0 vs HTTP/2.0](https://techtaste.me/img/http1-http2.png)
+        ![HTTP/1.0 vs HTTP/2.0](https://techtaste.in/img/http1-http2.png)
         e.g.
-        ![HTTP/1.0 vs HTTP/2.0](https://techtaste.me/img/http1-http2-2.png)
+        ![HTTP/1.0 vs HTTP/2.0](https://techtaste.in/img/http1-http2-2.png)
     * Ref : https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b
 
 * HTTPS(SSL/TLS)
@@ -125,9 +125,9 @@ draft: false
     ``` 
     -- Verify whether given port is open on a host
     $ telnet [host [port]]
-    rchari:~$ telnet techtaste.me 443
+    rchari:~$ telnet techtaste.in 443
     Trying 185.199.111.153...
-    Connected to techtaste.me.
+    Connected to techtaste.in.
     Escape character is '^]'.
     
     ^]

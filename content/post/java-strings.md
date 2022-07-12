@@ -8,13 +8,13 @@ draft: true
 #### **String Methods**
 * char charAt(index) : return char at sepecified index
 ``` java
-String str = "techtaste.me";
+String str = "techtaste.in";
 char c = str.chatAt(0); // returns 't'
 ```
 
 * bool equals(Object object) : if both string matches.
 	``` java
-	String str = "techtaste.me";
+	String str = "techtaste.in";
 	string str2 = new String(str);
 	
 	bool result = str.equals(str2); // returns true
