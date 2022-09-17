@@ -57,3 +57,29 @@ cat /etc/ssh/sshd_config
 # Copy public key to remote host
 ssh-copy-id -i ~/.ssh/id_rsa.pub raghav@hostname
 ```
+
+
+## Systemctl
+``` bash
+Find out the name of the unit file:
+systemctl list-units --all | grep nginx
+
+Stop Nginx service:
+systemctl stop nginx
+
+Find out the location of the service unit:
+systemctl status nginx
+
+Remove the unit file:
+rm /lib/systemd/system/nginx.service
+```
+
+## ufw (uncomplicated firewall)
+``` bash
+# Run the commands: 
+ufw allow from 135.22.65.0/24 to any port 9090 proto tcp 
+
+ufw allow from 135.22.65.0/24 to any port 9091 proto tcp on node01
+# To enable the firewall: 
+ufw enable
+```
