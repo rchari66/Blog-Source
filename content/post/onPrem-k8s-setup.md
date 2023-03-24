@@ -54,9 +54,9 @@ We can deploy them in one of following ways...
 2. If we want deploy our services as a helm chart, we can deploy it via ansible playbook. Pls, note that we need to have helm available in master node to run `helm install <our-chart>`
 3. Deploy an agent pod with (mTLS cert), which can pull latest kubernetes spec files from remote server(ours) and deploys them in the cluster
 
-
 We can also copy kube.config file locally(from master node), then run `kubectl` or `helm` cmd direclty to deploy.
 
+Search for pre-existing roles(from galaxy.ansible.com) if any available to deploy kubernetes to on-premise
 
 Note: Based pros & cons we can conclude on one approach which suits best.
 
