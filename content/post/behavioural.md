@@ -1,7 +1,7 @@
 ---
 title: "Behavioural"
 date: 2019-05-06T09:11:19Z
-categories: ["beviour"]
+categories: ["Interview"]
 draft: true
 ---
 
