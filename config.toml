@@ -1,4 +1,4 @@
-baseURL = "https://techtaste.in"
+baseURL = "https://sharemygo.in"
 languageCode = "en-us"
 title = "Techtaste"
 theme = "hugo-min"
